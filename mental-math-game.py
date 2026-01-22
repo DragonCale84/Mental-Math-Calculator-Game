@@ -56,7 +56,7 @@ print("| This is a game where you put your quick witts|")
 print("| and skills to the test with this fun game of |")
 print("| mental math and turtles! As for each question|")
 print("| you get correct, your turtle moves forward to|")
-print("| its goal, otherwise backwards! Enjoy!✌️      |")
+print("| its goal, otherwise backwards! Enjoy!✌️       |")
 print("|                                              |")
 print("| Your target goal: 14 points                  |")
 print("| For every wrong answer: -1 point             |")
@@ -132,7 +132,7 @@ while target != 14:
                 if rand1 > rand2:
                     ans4 = rand1 // rand2
                     print(f'{rand1} / {rand2} is?')
-                    user = int(input('What\'s your answer?: '))
+                    user = int(input('What\'s your answer? (Give to the nearest whole number only): '))
                     if user == ans4:
                         t.pendown()
                         colour_rand()
